@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blocks-product-editor-for-woocommerce\n"
+"POT-Creation-Date: 2022-07-04 16:00+0700\n"
+"PO-Revision-Date: 2022-07-04 16:40+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: blocks-product-editor-for-woocommerce.admin.php:14
+msgid "Standard"
+msgstr "मानक"
+
+#: blocks-product-editor-for-woocommerce.admin.php:62
+msgid "Settings saved."
+msgstr "सेटिंग्स को सहेजा गया।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:80
+#: blocks-product-editor-for-woocommerce.php:246
+msgid "Blocks Product Editor Settings"
+msgstr "कुल लागत इनपुट सेटिंग्स"
+
+#: blocks-product-editor-for-woocommerce.admin.php:86
+msgid "Awesome Premium Features"
+msgstr "बहुत बढ़िया प्रीमियम सुविधाएँ"
+
+#: blocks-product-editor-for-woocommerce.admin.php:87
+msgid "Per product gutenberg product editor and more."
+msgstr "प्रति उत्पाद कुल लागत इनपुट और बहुत कुछ।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:89
+msgid "Upgrade Now!"
+msgstr "अभी अपग्रेड करें!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:113
+msgid "Enable Gutenberg Editor"
+msgstr "गुटेनबर्ग संपादक सक्षम करें"
+
+#: blocks-product-editor-for-woocommerce.admin.php:117
+msgid "Enable the Gutenberg editor for WooCommerce products."
+msgstr "WooCommerce उत्पादों के लिए गुटेनबर्ग संपादक को सक्षम करें।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:123
+msgid "Show Product Categories in REST"
+msgstr "REST . में उत्पाद श्रेणियां दिखाएं"
+
+#: blocks-product-editor-for-woocommerce.admin.php:131
+msgid "Show Product Categories in REST for WooCommerce product categories."
+msgstr "WooCommerce उत्पाद श्रेणियों के लिए REST में उत्पाद श्रेणियां दिखाएं।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:136
+#: blocks-product-editor-for-woocommerce.admin.php:162
+#, php-format
+msgid "%1$sUpgrade Now!%2$s to enable this feature."
+msgstr "%1$sअभी अपग्रेड करें!%2$s इस सुविधा को सक्षम करने के लिए।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:149
+msgid "Show Product Tags in REST"
+msgstr "आरईएसटी में उत्पाद टैग दिखाएं"
+
+#: blocks-product-editor-for-woocommerce.admin.php:157
+msgid "Show Product Tags in REST for WooCommerce product tags."
+msgstr "WooCommerce उत्पाद टैग के लिए REST में उत्पाद टैग दिखाएं।"
+
+#: blocks-product-editor-for-woocommerce.admin.php:184
+msgid "Want more features?"
+msgstr "अधिक सुविधाएँ चाहते हैं?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:186
+#, php-format
+msgid "Install the %1$sPRO plugin version%2$s!"
+msgstr "%1$sपेशेवर प्लग इन संस्करण%2$s स्थापित करें!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:196
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Are you sure you want to delete all Blocks Product Editor options?"
+msgstr "क्या आप वाकई कुल लागत इनपुट विकल्पों को हटाना चाहते हैं?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Reset"
+msgstr "रीसेट"
+
+#: blocks-product-editor-for-woocommerce.admin.php:203
+#, php-format
+msgid ""
+"If you like <strong>Blocks Product Editor for WooCommerce</strong> please leave us "
+"a %1$s rating. A huge thanks in advance!"
+msgstr ""
+"अगर आपको <strong>WooCommerce के लिए कुल लागत इनपुट</strong> पसंद है, तो कृपया हमें %1$s रेटिंग "
+"दें। अग्रिम में एक बड़ा धन्यवाद!"
+
+#: blocks-product-editor-for-woocommerce.php:176
+msgid "Catalog visibility"
+msgstr "कैटलॉग दृश्यता"
+
+#: blocks-product-editor-for-woocommerce.php:247
+msgid "Blocks Product Editor"
+msgstr "कुल लागत इनपुट"
+
+#: blocks-product-editor-for-woocommerce.php:266
+msgid "Settings"
+msgstr "समायोजन"

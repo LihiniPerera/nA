@@ -1,0 +1,115 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blocks-product-editor-for-woocommerce\n"
+"POT-Creation-Date: 2022-07-04 16:00+0700\n"
+"PO-Revision-Date: 2018-04-23 17:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: blocks-product-editor-for-woocommerce.admin.php:14
+msgid "Standard"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:62
+msgid "Settings saved."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:80
+#: blocks-product-editor-for-woocommerce.php:246
+msgid "Blocks Product Editor Settings"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:86
+msgid "Awesome Premium Features"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:87
+msgid "Per product gutenberg product editor and more."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:89
+msgid "Upgrade Now!"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:113
+msgid "Enable Gutenberg Editor"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:117
+msgid "Enable the Gutenberg editor for WooCommerce products."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:123
+msgid "Show Product Categories in REST"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:131
+msgid "Show Product Categories in REST for WooCommerce product categories."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:136
+#: blocks-product-editor-for-woocommerce.admin.php:162
+#, php-format
+msgid "%1$sUpgrade Now!%2$s to enable this feature."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:149
+msgid "Show Product Tags in REST"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:157
+msgid "Show Product Tags in REST for WooCommerce product tags."
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:184
+msgid "Want more features?"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:186
+#, php-format
+msgid "Install the %1$sPRO plugin version%2$s!"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:196
+msgid "Save Changes"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Are you sure you want to delete all Blocks Product Editor options?"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Reset"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.admin.php:203
+#, php-format
+msgid "If you like <strong>Blocks Product Editor for WooCommerce</strong> please leave us a %1$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.php:176
+msgid "Catalog visibility"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.php:247
+msgid "Blocks Product Editor"
+msgstr ""
+
+#: blocks-product-editor-for-woocommerce.php:266
+msgid "Settings"
+msgstr ""

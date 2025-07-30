@@ -1,0 +1,77 @@
+/* RESET Event Ticketing System - Frontend Styles */
+.reset-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reset-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.reset-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.reset-form button {
+    background: #007cba;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-form button:hover {
+    background: #005a87;
+}
+
+.reset-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.reset-message.error {
+    background: #ffebee;
+    color: #c62828;
+    border: 1px solid #ffcdd2;
+}
+
+.reset-message.success {
+    background: #e8f5e8;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.reset-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.reset-ticket-option {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.reset-ticket-option input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.reset-ticket-price {
+    font-weight: bold;
+    color: #007cba;
+} 

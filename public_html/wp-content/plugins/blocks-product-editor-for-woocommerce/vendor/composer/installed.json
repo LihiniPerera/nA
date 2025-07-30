@@ -1,0 +1,18 @@
+{
+    "packages": [
+        {
+            "name": "freemius/wordpress-sdk",
+            "version": "2.11.0",
+            "version_normalized": "2.11.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "/home/olegabr/freemius-2.11.0.zip"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "install-path": "../freemius/wordpress-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
