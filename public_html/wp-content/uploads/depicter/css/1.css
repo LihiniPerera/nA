@@ -1,0 +1,49 @@
+
+.depicter-revert .depicter-1-element-11{
+	font-size:22px;
+	color:#FFFFFF;
+	font-family:"Poppins";
+	font-weight:400;
+	line-height:120%;
+	text-transform:;
+	background-color:transparent;
+}
+.depicter-revert .depicter-1-element-9{
+	font-size:65px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Bebas Neue";
+	font-weight:400;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-1-section-1 .depicter-section-background{
+	background-color:transparent;
+}
+
+/***** Mobile *****/
+@media screen and (max-width: 767px){
+
+.depicter-revert .depicter-1-element-11{
+	font-size:17px;
+	color:#FFFFFF;
+	font-family:"Poppins";
+	font-weight:400;
+	line-height:120%;
+	text-transform:;
+	background-color:transparent;
+}
+.depicter-revert .depicter-1-element-9{
+	font-size:44px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Bebas Neue";
+	font-weight:400;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-1-section-1 .depicter-section-background{
+	background-color:transparent;
+}
+
+}

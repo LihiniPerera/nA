@@ -1,0 +1,1200 @@
+0000.001 (0) Opened log file at time: Wed, 30 Jul 2025 05:12:56 +0000 on https://localhost/new/public_html
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-D1H2RE7 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 117.9M | 120M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 24932.8 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: twicedaily)
+0000.014 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.022 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1753748808, seconds_ago=103568)
+0000.024 (0) Semaphore (f, wp_options) was stuck, set lock time to 2025-07-30 05:12:56
+0000.026 (0) Semaphore (f, wp_options) reset to 1
+0000.027 (0) Set semaphore last lock (f) time to 2025-07-30 05:12:56
+0000.028 (0) Semaphore lock (f) complete
+0000.032 (0) Backup run: resumption=0, nonce=b9b2e39d5901, file_nonce=b9b2e39d5901 begun at=1753852376 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1753852676) in case this run gets aborted
+0000.045 (0) Checking if we have a zip executable available
+0000.047 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.049 (0) Creation of backups of directories: beginning
+0000.053 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0010.267 (0) Total entities for the zip file: 2720 directories, 16001 files (0 skipped as non-modified), 221 MB
+0010.269 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 226282.7 KB, split: 409600 KB)
+0010.308 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.363 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.397 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.433 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.470 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.515 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0010.545 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0010.575 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0010.607 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0010.638 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0010.669 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0010.699 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0010.730 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0010.762 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0010.792 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0010.823 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0010.854 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0010.887 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0010.920 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0010.966 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0011.000 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0011.033 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0011.062 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0011.093 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0011.128 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0011.162 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0011.195 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0011.225 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0011.260 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0011.294 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0011.325 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0011.357 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0011.391 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0011.422 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0011.453 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0011.487 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0011.519 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0011.550 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0011.581 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0011.611 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0011.641 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0011.674 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0011.705 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0011.734 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0011.766 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0011.796 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0011.829 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0011.860 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0011.890 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0011.921 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0011.951 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0011.981 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0012.015 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0012.046 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0012.077 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0012.107 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0012.137 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0012.170 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0012.204 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0012.235 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0012.266 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0012.296 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0012.326 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0012.357 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0012.387 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0012.435 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0012.477 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0012.507 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0012.537 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0012.568 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0012.599 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0012.640 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0012.672 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0012.703 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0012.733 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0012.763 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0012.793 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0012.823 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0012.855 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0012.886 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0012.917 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0012.948 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0012.981 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0013.024 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0013.058 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0013.092 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0013.124 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0013.157 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8800 files added (on-disk size: 0 KB)
+0013.187 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 8900 files added (on-disk size: 0 KB)
+0013.215 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0013.245 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0013.275 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0013.306 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0013.339 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9400 files added (on-disk size: 0 KB)
+0013.373 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9500 files added (on-disk size: 0 KB)
+0013.405 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9600 files added (on-disk size: 0 KB)
+0013.436 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9700 files added (on-disk size: 0 KB)
+0013.467 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9800 files added (on-disk size: 0 KB)
+0013.499 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 9900 files added (on-disk size: 0 KB)
+0013.528 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10000 files added (on-disk size: 0 KB)
+0013.558 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10100 files added (on-disk size: 0 KB)
+0013.587 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10200 files added (on-disk size: 0 KB)
+0013.620 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10300 files added (on-disk size: 0 KB)
+0013.653 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10400 files added (on-disk size: 0 KB)
+0013.685 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10500 files added (on-disk size: 0 KB)
+0013.716 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10600 files added (on-disk size: 0 KB)
+0013.746 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10700 files added (on-disk size: 0 KB)
+0013.776 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10800 files added (on-disk size: 0 KB)
+0013.806 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 10900 files added (on-disk size: 0 KB)
+0013.834 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11000 files added (on-disk size: 0 KB)
+0013.863 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11100 files added (on-disk size: 0 KB)
+0013.895 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11200 files added (on-disk size: 0 KB)
+0013.926 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11300 files added (on-disk size: 0 KB)
+0013.956 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11400 files added (on-disk size: 0 KB)
+0013.987 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11500 files added (on-disk size: 0 KB)
+0014.020 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11600 files added (on-disk size: 0 KB)
+0014.049 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11700 files added (on-disk size: 0 KB)
+0014.078 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11800 files added (on-disk size: 0 KB)
+0014.108 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 11900 files added (on-disk size: 0 KB)
+0014.140 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12000 files added (on-disk size: 0 KB)
+0014.170 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12100 files added (on-disk size: 0 KB)
+0014.201 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12200 files added (on-disk size: 0 KB)
+0014.231 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12300 files added (on-disk size: 0 KB)
+0014.261 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12400 files added (on-disk size: 0 KB)
+0014.291 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12500 files added (on-disk size: 0 KB)
+0014.322 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12600 files added (on-disk size: 0 KB)
+0014.357 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12700 files added (on-disk size: 0 KB)
+0014.406 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12800 files added (on-disk size: 0 KB)
+0014.455 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 12900 files added (on-disk size: 0 KB)
+0014.503 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13000 files added (on-disk size: 0 KB)
+0014.565 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13100 files added (on-disk size: 0 KB)
+0014.621 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13200 files added (on-disk size: 0 KB)
+0014.674 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13300 files added (on-disk size: 0 KB)
+0014.734 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13400 files added (on-disk size: 0 KB)
+0014.787 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13500 files added (on-disk size: 0 KB)
+0014.840 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13600 files added (on-disk size: 0 KB)
+0014.903 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13700 files added (on-disk size: 0 KB)
+0014.972 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13800 files added (on-disk size: 0 KB)
+0015.057 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 13900 files added (on-disk size: 0 KB)
+0015.151 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14000 files added (on-disk size: 0 KB)
+0015.229 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14100 files added (on-disk size: 0 KB)
+0015.307 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14200 files added (on-disk size: 0 KB)
+0015.382 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14300 files added (on-disk size: 0 KB)
+0015.448 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14400 files added (on-disk size: 0 KB)
+0015.511 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14500 files added (on-disk size: 0 KB)
+0015.563 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14600 files added (on-disk size: 0 KB)
+0015.622 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14700 files added (on-disk size: 0 KB)
+0015.677 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14800 files added (on-disk size: 0 KB)
+0015.728 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 14900 files added (on-disk size: 0 KB)
+0015.786 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15000 files added (on-disk size: 0 KB)
+0015.845 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15100 files added (on-disk size: 0 KB)
+0015.910 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15200 files added (on-disk size: 0 KB)
+0015.980 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15300 files added (on-disk size: 0 KB)
+0016.040 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15400 files added (on-disk size: 0 KB)
+0016.098 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15500 files added (on-disk size: 0 KB)
+0016.160 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15600 files added (on-disk size: 0 KB)
+0016.219 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15700 files added (on-disk size: 0 KB)
+0016.284 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15800 files added (on-disk size: 0 KB)
+0016.374 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 15900 files added (on-disk size: 0 KB)
+0016.434 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp: 16000 files added (on-disk size: 0 KB)
+0359.689 (1) Opened log file at time: Wed, 30 Jul 2025 05:18:56 +0000 on https://localhost/new/public_html
+0359.690 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-D1H2RE7 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 114.1M | 116M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0359.692 (1) Free space on disk containing Updraft's temporary directory: 24347.1 MB
+0359.693 (1) Requesting backup semaphore lock (b9b2e39d5901)
+0359.696 (1) [Debug] Lock option (updraft_lock_b9b2e39d5901, wp_options) was created in the database
+0359.697 (1) [Info] Lock (updraft_lock_b9b2e39d5901, wp_options) acquired after initialising the database
+0359.700 (1) Backup run: resumption=1, nonce=b9b2e39d5901, file_nonce=b9b2e39d5901 begun at=1753852376 (360s ago), job type=backup
+0359.702 (1) Scheduling a resumption (2) after 300 seconds (1753853036) in case this run gets aborted
+0359.712 (1) Checking if we have a zip executable available
+0359.714 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0359.716 (1) Creation of backups of directories: had begun; will resume
+0359.719 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0359.724 (1) Terminate: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1753852736, time_now=1753852736, diff=0, size=69756KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0359.727 (1) Rescheduling resumption 2: moving to 420 seconds from now (1753853156)
+0359.731 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0568.405 (0) The time we have been running (568.4) is approaching the resumption interval (300) - increasing resumption interval to 599
+0568.571 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip.list-temp.tmp)
+0568.681 (0) Successfully created zip file manifest (size: 1544053)
+0569.467 (0) Created plugins zip (0) - 78526.2 KB in 569.4 s (137.9 KB/s) (sha1: a474b866e89e92ec223018a57d904d9771e66e72, sha256: cb6c770dd31dc24eba2982e09ba8e40cba102e4dfccfe8dfce2070a3d9463303)
+0569.485 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0569.488 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0573.235 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0573.237 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0573.239 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip) size is 80410807 b, whereas available quota is only -881647098124 b
+0573.240 (0) An error condition has occurred for the first time during this job
+0574.267 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0574.273 (0) Beginning creation of dump of themes (split every: 400 MB)
+0574.740 (0) Total entities for the zip file: 210 directories, 1001 files (0 skipped as non-modified), 21 MB
+0574.741 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 21531.8 KB, split: 409600 KB)
+0574.784 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0574.824 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0574.865 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0574.899 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0574.933 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0574.967 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0575.003 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0575.045 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0575.088 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0575.130 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0577.372 (0) PHP event: code E_WARNING: rename(C:\xampp1\htdocs\New\public_html/wp-content/updraft/pclzip-6889ac1a3986e.tmp,C:\xampp1\htdocs\New\public_html/wp-content/updraft/backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.tmp): Access is denied (code: 5) (line 5659, C:\xampp1\htdocs\New\public_html\wp-admin\includes\class-pclzip.php)
+0581.558 (0) The time we have been running (581.6) is approaching the resumption interval (599) - increasing resumption interval to 612
+0581.568 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip.list-temp.tmp)
+0581.576 (0) Successfully created zip file manifest (size: 70699)
+0581.690 (0) Created themes zip (0) - 12826 KB in 7.4 s (1730.6 KB/s) (sha1: 63f9074037bd1459bf7247d0de26b1df5b6a791d, sha256: e05754e544913c44fbce1722c1941b0875ed385920dbb8d52f4053d46ae9abde)
+0581.695 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0581.697 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0582.484 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0582.486 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0582.487 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip) size is 13133873 b, whereas available quota is only -881647098124 b
+0583.415 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0583.425 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0583.426 (0) Looking for candidates to backup in: C:\xampp1\htdocs\New\public_html/wp-content/uploads
+0583.427 (0) finding files: .htaccess: adding to list (1)
+0583.429 (0) finding files: 2020: adding to list (2)
+0583.431 (0) finding files: 2021: adding to list (3)
+0583.432 (0) finding files: 2023: adding to list (4)
+0583.433 (0) finding files: 2024: adding to list (5)
+0583.434 (0) finding files: 2025: adding to list (6)
+0583.435 (0) finding files: ac_assets: adding to list (7)
+0583.436 (0) finding files: depicter: adding to list (8)
+0583.437 (0) finding files: elementor: adding to list (9)
+0583.439 (0) finding files: sucuri: adding to list (10)
+0583.440 (0) finding files: unlimited_elements_cache: adding to list (11)
+0583.441 (0) finding files: wc-logs: adding to list (12)
+0583.442 (0) finding files: webp-express-test-conversion.webp: adding to list (13)
+0583.444 (0) finding files: woocommerce-placeholder-100x100.png.webp: adding to list (14)
+0583.445 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (15)
+0583.447 (0) finding files: woocommerce-placeholder-12x12.png: adding to list (16)
+0583.448 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (17)
+0583.449 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (18)
+0583.450 (0) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (19)
+0583.451 (0) finding files: woocommerce-placeholder-600x600.png.webp: adding to list (20)
+0583.452 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (21)
+0583.454 (0) finding files: woocommerce-placeholder.png: adding to list (22)
+0583.454 (0) finding files: woocommerce_uploads: adding to list (23)
+0583.455 (0) finding files: wpemerge: adding to list (24)
+0583.456 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0586.535 (0) Total entities for the zip file: 59 directories, 7327 files (0 skipped as non-modified), 1709.8 MB
+0586.540 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0586.704 (0) The time we have been running (586.7) is approaching the resumption interval (612) - increasing resumption interval to 617
+0586.739 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 100 files added (on-disk size: 8.2 KB)
+0586.772 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 200 files added (on-disk size: 8.2 KB)
+0586.804 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 300 files added (on-disk size: 8.2 KB)
+0586.836 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 400 files added (on-disk size: 8.2 KB)
+0586.843 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 25 MB added on this batch (25 MB, 7327 files batched, 416 (417) added so far); re-opening (prior size: 8.2 KB)
+0587.915 (0) The time we have been running (587.9) is approaching the resumption interval (617) - increasing resumption interval to 618
+0587.918 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.8 s, rate: 14321.2 KB/s)
+0587.920 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.788880109787, normalised_time=1.7875639034857, max_time=587.91807699203, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0587.951 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 500 files added (on-disk size: 25281.5 KB)
+0587.985 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 600 files added (on-disk size: 25281.5 KB)
+0588.039 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 700 files added (on-disk size: 25281.5 KB)
+0588.080 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 800 files added (on-disk size: 25281.5 KB)
+0588.112 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 900 files added (on-disk size: 25281.5 KB)
+0588.145 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1000 files added (on-disk size: 25281.5 KB)
+0588.179 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1100 files added (on-disk size: 25281.5 KB)
+0588.216 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1200 files added (on-disk size: 25281.5 KB)
+0588.251 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1300 files added (on-disk size: 25281.5 KB)
+0588.285 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1400 files added (on-disk size: 25281.5 KB)
+0588.293 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (55.9 MB, 7327 files batched, 1001 (1418) added so far); re-opening (prior size: 25281.5 KB)
+0591.921 (0) The time we have been running (591.9) is approaching the resumption interval (618) - increasing resumption interval to 622
+0591.952 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1500 files added (on-disk size: 81089 KB)
+0591.988 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1600 files added (on-disk size: 81089 KB)
+0592.021 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1700 files added (on-disk size: 81089 KB)
+0592.053 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1800 files added (on-disk size: 81089 KB)
+0592.090 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 1900 files added (on-disk size: 81089 KB)
+0592.126 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2000 files added (on-disk size: 81089 KB)
+0592.161 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2100 files added (on-disk size: 81089 KB)
+0592.196 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2200 files added (on-disk size: 81089 KB)
+0592.226 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2300 files added (on-disk size: 81089 KB)
+0592.264 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2400 files added (on-disk size: 81089 KB)
+0592.272 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (170.1 MB, 7327 files batched, 1001 (2419) added so far); re-opening (prior size: 81089 KB)
+0600.145 (0) The time we have been running (600.1) is approaching the resumption interval (622) - increasing resumption interval to 631
+0600.176 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2500 files added (on-disk size: 254191.2 KB)
+0600.212 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2600 files added (on-disk size: 254191.2 KB)
+0600.243 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.tmp: 2700 files added (on-disk size: 254191.2 KB)
+0600.278 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (149.9 MB, 380 (2799) files added so far); last ratio: 0.9936; re-opening (prior size: 254191.2 KB)
+0608.061 (0) The time we have been running (608.1) is approaching the resumption interval (631) - increasing resumption interval to 639
+0608.066 (0) Zip size is at/near split limit (395.2 MB / 400 MB) - bumping index (from: 0)
+0611.800 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip.list-temp.tmp)
+0611.819 (0) Successfully created zip file manifest (size: 190998)
+0611.826 (0) The time we have been running (611.8) is approaching the resumption interval (639) - increasing resumption interval to 642
+0611.829 (0) Created uploads zip (0) - 404694.3 KB in 24.6 s (16446.1 KB/s) (checksums: sha1: 1524be2240c439814156ea7e81164ccfeb434c60, sha256: af4d9bb64f6908815b0587bedaea8ea5747ebe51e466aff5403d3dabd701643b)
+0611.838 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0611.840 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0612.716 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0612.718 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0612.719 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip) size is 414406917 b, whereas available quota is only -881647098124 b
+0613.706 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0613.712 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (15.3 MB, 1 (2800) files added so far); re-opening (prior size: 0 KB)
+0614.327 (0) The time we have been running (614.3) is approaching the resumption interval (642) - increasing resumption interval to 645
+0614.331 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 2800 files added (on-disk size: 15439.8 KB)
+0614.369 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 2900 files added (on-disk size: 15439.8 KB)
+0614.410 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3000 files added (on-disk size: 15439.8 KB)
+0614.444 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3100 files added (on-disk size: 15439.8 KB)
+0614.454 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (200.3 MB, 7327 files batched, 324 (3124) added so far); re-opening (prior size: 15439.8 KB)
+0621.624 (0) The time we have been running (621.6) is approaching the resumption interval (645) - increasing resumption interval to 652
+0621.628 (0) A useful amount of data was added after this amount of zip processing: 7.5 s (normalised: 7.5 s, rate: 27357.5 KB/s)
+0621.629 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=7.4987940788269, normalised_time=7.4860623769293, max_time=621.62836408615, data points known=1, max_bytes=209715200)
+0621.655 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3200 files added (on-disk size: 218911.9 KB)
+0621.685 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3300 files added (on-disk size: 218911.9 KB)
+0621.717 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3400 files added (on-disk size: 218911.9 KB)
+0621.747 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.tmp: 3500 files added (on-disk size: 218911.9 KB)
+0621.759 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (174.9 MB, 413 (3537) files added so far); last ratio: 0.9918; re-opening (prior size: 218911.9 KB)
+0630.002 (0) The time we have been running (630) is approaching the resumption interval (652) - increasing resumption interval to 660
+0630.005 (0) Zip size is at/near split limit (387.1 MB / 400 MB) - bumping index (from: 1)
+0633.280 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip.list-temp.tmp)
+0633.288 (0) Successfully created zip file manifest (size: 42899)
+0633.294 (0) The time we have been running (633.3) is approaching the resumption interval (660) - increasing resumption interval to 664
+0633.297 (0) Created uploads zip (1) - 396393.8 KB in 18.2 s (21809.9 KB/s) (checksums: sha1: 4d46840c0197a589ca4011284df419dd7ac449e1, sha256: 8d5bb7a1f68f1433fe18eab15018d3a1fb089b8ec31190499cc8cb3b0d8d7553)
+0633.304 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0633.306 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0634.208 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0634.212 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0634.213 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip) size is 405907245 b, whereas available quota is only -881647098124 b
+0635.100 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0635.107 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (3538) files added so far); re-opening (prior size: 0 KB)
+0635.115 (0) The time we have been running (635.1) is approaching the resumption interval (664) - increasing resumption interval to 666
+0635.137 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 3600 files added (on-disk size: 17.1 KB)
+0635.167 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 3700 files added (on-disk size: 17.1 KB)
+0635.196 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 3800 files added (on-disk size: 17.1 KB)
+0635.230 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 3900 files added (on-disk size: 17.1 KB)
+0635.252 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (200.4 MB, 7327 files batched, 433 (3971) added so far); re-opening (prior size: 17.1 KB)
+0642.606 (0) The time we have been running (642.6) is approaching the resumption interval (666) - increasing resumption interval to 673
+0642.608 (0) A useful amount of data was added after this amount of zip processing: 8.5 s (normalised: 8.5 s, rate: 24195.4 KB/s)
+0642.610 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=8.4793560504913, normalised_time=8.4644101641265, max_time=642.60862994194, data points known=1, max_bytes=209715200)
+0642.621 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4000 files added (on-disk size: 183009.4 KB)
+0642.652 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4100 files added (on-disk size: 183009.4 KB)
+0642.682 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4200 files added (on-disk size: 183009.4 KB)
+0642.714 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4300 files added (on-disk size: 183009.4 KB)
+0642.744 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4400 files added (on-disk size: 183009.4 KB)
+0642.763 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (201.8 MB, 7327 files batched, 484 (4455) added so far); re-opening (prior size: 183009.4 KB)
+0655.315 (0) The time we have been running (655.3) is approaching the resumption interval (673) - increasing resumption interval to 686
+0655.379 (0) A useful amount of data was added after this amount of zip processing: 13.3 s (normalised: 13.1 s, rate: 15597.6 KB/s)
+0655.382 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=13.2503221035, normalised_time=13.130239954902, max_time=655.38152289391, data points known=1, max_bytes=209715200)
+0655.403 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.tmp: 4500 files added (on-disk size: 387483.3 KB)
+0655.414 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (20.2 MB, 68 (4523) files added so far); last ratio: 0.9894; re-opening (prior size: 387483.3 KB)
+0662.090 (0) The time we have been running (662.1) is approaching the resumption interval (686) - increasing resumption interval to 693
+0662.096 (0) Zip size is at/near split limit (398.5 MB / 400 MB) - bumping index (from: 2)
+0665.497 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip.list-temp.tmp)
+0665.508 (0) Successfully created zip file manifest (size: 72509)
+0665.528 (0) The time we have been running (665.5) is approaching the resumption interval (693) - increasing resumption interval to 696
+0665.536 (0) Created uploads zip (2) - 408029.2 KB in 28.8 s (14167.1 KB/s) (checksums: sha1: a075227a66778fc31ef25ecbd03a894cb2c5d233, sha256: d18e5b77c2533b1fd44c539ce19e9965028e2bdc2c4bcaef447733008803d045)
+0665.551 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0665.554 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0666.390 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0666.393 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0666.396 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip) size is 417821862 b, whereas available quota is only -881647098124 b
+0667.282 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0667.294 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (4524) files added so far); re-opening (prior size: 0 KB)
+0667.310 (0) The time we have been running (667.3) is approaching the resumption interval (696) - increasing resumption interval to 698
+0667.342 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 4600 files added (on-disk size: 10.2 KB)
+0667.375 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 4700 files added (on-disk size: 10.2 KB)
+0667.393 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (202 MB, 7327 files batched, 230 (4754) added so far); re-opening (prior size: 10.2 KB)
+0674.324 (0) The time we have been running (674.3) is approaching the resumption interval (698) - increasing resumption interval to 705
+0674.332 (0) A useful amount of data was added after this amount of zip processing: 7.2 s (normalised: 7.1 s, rate: 28713.4 KB/s)
+0674.336 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=7.203243970871, normalised_time=7.1325672570589, max_time=674.33508086205, data points known=1, max_bytes=209715200)
+0674.358 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 4800 files added (on-disk size: 206228 KB)
+0674.392 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 4900 files added (on-disk size: 206228 KB)
+0674.425 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5000 files added (on-disk size: 206228 KB)
+0674.457 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5100 files added (on-disk size: 206228 KB)
+0674.489 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5200 files added (on-disk size: 206228 KB)
+0674.522 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5300 files added (on-disk size: 206228 KB)
+0674.554 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5400 files added (on-disk size: 206228 KB)
+0674.585 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5500 files added (on-disk size: 206228 KB)
+0674.616 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5600 files added (on-disk size: 206228 KB)
+0674.648 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5700 files added (on-disk size: 206228 KB)
+0674.667 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (166.6 MB, 7327 files batched, 1001 (5755) added so far); re-opening (prior size: 206228 KB)
+0685.162 (0) The time we have been running (685.2) is approaching the resumption interval (705) - increasing resumption interval to 716
+0685.181 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5800 files added (on-disk size: 374996.7 KB)
+0685.214 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.tmp: 5900 files added (on-disk size: 374996.7 KB)
+0685.237 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (31.2 MB, 210 (5965) files added so far); last ratio: 0.989; re-opening (prior size: 374996.7 KB)
+0689.092 (0) The time we have been running (689.1) is approaching the resumption interval (716) - increasing resumption interval to 720
+0689.099 (0) Zip size is at/near split limit (397 MB / 400 MB) - bumping index (from: 3)
+0692.648 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip.list-temp.tmp)
+0692.660 (0) Successfully created zip file manifest (size: 76465)
+0692.675 (0) The time we have been running (692.7) is approaching the resumption interval (720) - increasing resumption interval to 723
+0692.683 (0) Created uploads zip (3) - 406530.1 KB in 23.6 s (17252.9 KB/s) (checksums: sha1: 14c64ea15f7747a58dbfaa8ed8da21dd917298d7, sha256: c6353274c10deafc212b08ca546e72721af717d62617913fca52a5e88ae615c2)
+0692.698 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0692.701 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0693.677 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0693.682 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0693.685 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip) size is 416286814 b, whereas available quota is only -881647098124 b
+0694.666 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0694.675 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (5966) files added so far); re-opening (prior size: 0 KB)
+0694.692 (0) The time we have been running (694.7) is approaching the resumption interval (723) - increasing resumption interval to 725
+0694.709 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6000 files added (on-disk size: 3.3 KB)
+0694.746 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6100 files added (on-disk size: 3.3 KB)
+0694.785 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6200 files added (on-disk size: 3.3 KB)
+0694.821 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6300 files added (on-disk size: 3.3 KB)
+0694.855 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6400 files added (on-disk size: 3.3 KB)
+0694.890 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6500 files added (on-disk size: 3.3 KB)
+0694.926 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6600 files added (on-disk size: 3.3 KB)
+0694.960 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6700 files added (on-disk size: 3.3 KB)
+0694.995 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6800 files added (on-disk size: 3.3 KB)
+0695.027 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 6900 files added (on-disk size: 3.3 KB)
+0695.050 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 1000 files added on this batch (76.9 MB, 7327 files batched, 1001 (6967) added so far); re-opening (prior size: 3.3 KB)
+0698.858 (0) The time we have been running (698.8) is approaching the resumption interval (725) - increasing resumption interval to 729
+0698.874 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 7000 files added (on-disk size: 76861.1 KB)
+0698.907 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 7100 files added (on-disk size: 76861.1 KB)
+0698.941 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 7200 files added (on-disk size: 76861.1 KB)
+0698.977 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.tmp: 7300 files added (on-disk size: 76861.1 KB)
+0708.711 (0) The time we have been running (708.7) is approaching the resumption interval (729) - increasing resumption interval to 739
+0708.730 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip.list-temp.tmp)
+0708.741 (0) Successfully created zip file manifest (size: 79391)
+0709.543 (0) Created uploads zip (4) - 92932.5 KB in 16.8 s (5515.3 KB/s) (sha1: b145688d0d96b5d5bea735db5a056245182ddd58, sha256: bc6538eb8ed7b52c01913fac27dbe09913424c3f636a973033617bdf8467412c)
+0709.561 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0709.567 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0710.661 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0710.666 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0710.669 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip) size is 95162843 b, whereas available quota is only -881647098124 b
+0711.593 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0711.607 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0711.618 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0711.621 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 4.9 KB, split: 409600 KB)
+0711.638 (0) The time we have been running (711.6) is approaching the resumption interval (739) - increasing resumption interval to 742
+0711.644 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip.list-temp.tmp)
+0711.648 (0) Successfully created zip file manifest (size: 67)
+0711.668 (0) Created mu-plugins zip (0) - 1.8 KB in 0 s (37.2 KB/s) (sha1: 75c02cc35fa0c5814048acbe963839cfb77a94c8, sha256: bbf32f7319ba0985b6893d137410a1419046749b8c500d6b5b1da7d3248943c8)
+0711.678 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0711.681 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0712.608 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0712.614 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0712.618 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip) size is 1841 b, whereas available quota is only -881647098124 b
+0715.717 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-WmX0vFktNMZSUhPNWH2GLUubyR6f7vMa8sWCTsjzSfCKacBbe41eINfhGqvCNoYIrAp6tKCnrTB6FlV1wAlChiLcJBnpGWiWI1HIZrw&session_crd=AHSoBRWIfK7kv_r2hMiK8xb1NIaCr-laYepzUeyEreQwQyTlrXu8au_TkS7KW4wKWC6KhpaWPidWHfLw_Sk: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0718.565 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-4V_VH-t545jiuRbIGP_vhJPPqCUikPsVs7XRCxdw2PtMqRvh783j-a7Y5HdD5pRwgF1QK5KJDSD-hXiE0YHEimUKJfy4EMaRRXvtNEQ&session_crd=AHSoBRWhIK20q2L8iOMwmueGSFe9kB1jTRlQlh7HVO51F36c1LdlTzoSb8rZxrf436EExMLokfUIForo6kQ: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0718.570 (0) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-4V_VH-t545jiuRbIGP_vhJPPqCUikPsVs7XRCxdw2PtMqRvh783j-a7Y5HdD5pRwgF1QK5KJDSD-hXiE0YHEimUKJfy4EMaRRXvtNEQ&session_crd=AHSoBRWhIK20q2L8iOMwmueGSFe9kB1jTRlQlh7HVO51F36c1LdlTzoSb8rZxrf436EExMLokfUIForo6kQ: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0718.582 (0) Beginning backup of other directories found in the content directory (index: 0)
+0718.585 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0718.588 (0) Looking for candidates to backup in: C:\xampp1\htdocs\New\public_html/wp-content
+0718.591 (0) finding files: .DS_Store: adding to list (1)
+0718.594 (0) finding files: .htaccess: adding to list (2)
+0718.597 (0) finding files: ewww: adding to list (3)
+0718.600 (0) finding files: index.php: adding to list (4)
+0718.603 (0) finding files: languages: adding to list (5)
+0718.606 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0718.608 (0) finding files: plugins: skipping: this is the plugins directory
+0718.611 (0) finding files: themes: skipping: this is the themes directory
+0718.614 (0) finding files: updraft: skipping: this is the updraft directory
+0718.617 (0) finding files: uploads: skipping: this is the uploads directory
+0718.620 (0) finding files: webp-express: adding to list (6)
+0718.623 (0) finding files: webtoffee_export: adding to list (7)
+0718.628 (0) finding files: wflogs: adding to list (8)
+0721.224 (0) Total entities for the zip file: 249 directories, 7113 files (0 skipped as non-modified), 254.4 MB
+0721.228 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 260556.8 KB, split: 409600 KB)
+0721.276 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0721.309 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0721.343 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0721.375 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0721.407 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0721.439 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0721.470 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0721.500 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0721.532 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0721.567 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0721.597 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0721.629 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0721.660 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0721.692 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0721.724 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0721.757 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0721.789 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0721.820 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0721.851 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0721.883 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0721.914 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0721.945 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0721.976 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0722.007 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0722.038 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0722.071 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0722.105 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0722.137 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0722.169 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0722.202 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0722.288 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0722.320 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0722.352 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0722.384 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0722.416 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0722.451 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0722.486 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0722.519 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0722.554 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0722.588 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0722.623 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0722.656 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0722.691 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0722.726 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0722.760 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0722.792 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0722.828 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0722.862 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0722.895 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0722.928 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0722.962 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0722.994 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0723.025 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0723.058 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0723.092 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0723.125 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0723.159 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0723.190 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0723.224 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0723.256 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0723.288 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0723.321 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0723.353 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0723.385 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0723.417 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0723.456 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0723.490 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0723.523 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0723.559 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0723.591 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0723.624 (0) Zip: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0783.338 (0) The time we have been running (783.3) is approaching the resumption interval (742) - increasing resumption interval to 814
+0783.390 (0) Creating zip file manifest (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip.list-temp.tmp)
+0783.444 (0) Successfully created zip file manifest (size: 667723)
+0785.391 (0) Created others zip (0) - 254196.9 KB in 66.7 s (3808.2 KB/s) (sha1: eda31fb66dd79f54a54e8bf1c26d89161d913931, sha256: 7e18e5ca0e1becccf3415c5fd1de913090b83e01e7979ca574abc5bd7b83742f)
+0785.406 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0785.416 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0786.265 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0786.269 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0786.273 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip) size is 260297587 b, whereas available quota is only -881647098124 b
+0787.451 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0787.493 (0) Saving backup status to database (elements: 14)
+0787.509 (0) No database backup (wp) - not part of this run
+0787.519 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0787.522 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0787.525 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0787.528 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0787.531 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0787.533 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0787.536 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0787.539 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0787.542 (0) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: others: This file has not yet been successfully uploaded: will queue
+0787.545 (0) Saving backup history. Total backup size: 2 GB
+0787.558 (0) Requesting upload of the files that have not yet been successfully uploaded (9)
+0787.572 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0787.577 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+0788.498 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0788.501 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0788.505 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip) size is 80410807 b, whereas available quota is only -881647098124 b
+0789.365 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0790.189 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0790.193 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0790.197 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip) size is 13133873 b, whereas available quota is only -881647098124 b
+0791.149 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0791.944 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0791.948 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0791.951 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip) size is 414406917 b, whereas available quota is only -881647098124 b
+0792.833 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0793.648 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0793.651 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0793.654 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip) size is 405907245 b, whereas available quota is only -881647098124 b
+0794.512 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0795.382 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0795.385 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0795.389 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip) size is 417821862 b, whereas available quota is only -881647098124 b
+0796.332 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0797.159 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0797.163 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0797.166 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip) size is 416286814 b, whereas available quota is only -881647098124 b
+0797.990 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0798.801 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0798.804 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0798.808 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip) size is 95162843 b, whereas available quota is only -881647098124 b
+0799.673 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0800.538 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0800.544 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0800.550 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip) size is 1841 b, whereas available quota is only -881647098124 b
+0803.662 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8_TCraREhOqxMTwSA2JkQFmk6Wzn7wVv5SFptMx3otWOAjh8VcfsWx3coFFOKFgbPvWx1Q9RtCGW1omnYP2FIM3KSn8yKgBZbDxsYudySc&session_crd=AHSoBRXxjq1YbGY6omCuc28XOCnRUhv_i6IKAMzsMXJgjGrPxYLn69NH65XnAYAfHLMyRQ66_6BA8ThhPG0: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0806.524 (0) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-_M9B6ler3TxKQcEam4Z6V2c1KwtA8yfAdNaAzRmVDge-jRomaAMBZJIva20l4IijKR0JaPgrfksJbhpA4dW2QHYRQ8XJeQwZqS6VJCw&session_crd=AHSoBRWzz0DbTpqpJ2MvM_VZIzsW4IkJM5IgrktgOHr1M-u8mcjVv7eJJ_XFZSm1bLdFTrWIqHbnZP6oXjU: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0806.528 (0) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-_M9B6ler3TxKQcEam4Z6V2c1KwtA8yfAdNaAzRmVDge-jRomaAMBZJIva20l4IijKR0JaPgrfksJbhpA4dW2QHYRQ8XJeQwZqS6VJCw&session_crd=AHSoBRWzz0DbTpqpJ2MvM_VZIzsW4IkJM5IgrktgOHr1M-u8mcjVv7eJJ_XFZSm1bLdFTrWIqHbnZP6oXjU: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+0807.415 (0) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+0807.420 (0) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+0807.425 (0) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip) size is 260297587 b, whereas available quota is only -881647098124 b
+0808.237 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\New\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0808.246 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=14
+0808.253 (0) Number of backup sets in history: 23; groups (db): 1
+0808.256 (0) Examining (for databases) backup set with group_id=0, nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=a5c2bc828772, datestamp=1753230405 (Jul 23 2025 00:26:45)
+0808.259 (0) Examining (for databases) backup set with group_id=0, nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+0808.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.263 (0) Examining (for databases) backup set with group_id=0, nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+0808.263 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+0808.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0808.264 (0) Examining (for databases) backup set with group_id=0, nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+0808.264 (0) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0808.264 (0) Number of backup sets in history: 23; groups (files): 1
+0808.267 (0) Examining (for files) backup set with nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+0808.267 (0) This backup set is the backup set just made, so will not be deleted.
+0808.270 (0) This backup set is the backup set just made, so will not be deleted.
+0808.270 (0) This backup set is the backup set just made, so will not be deleted.
+0808.270 (0) This backup set is the backup set just made, so will not be deleted.
+0808.270 (0) This backup set is the backup set just made, so will not be deleted.
+0808.270 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.273 (0) Examining (for files) backup set with nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+0808.274 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0808.274 (0) Examining (for files) backup set with nonce=a5c2bc828772, datestamp=1753230405 (Jul 23 2025 00:26:45)
+0808.274 (0) plugins: over retain limit (7); will delete this file entity
+0808.274 (0) themes: over retain limit (7); will delete this file entity
+0808.274 (0) uploads: over retain limit (7); will delete this file entity
+0808.274 (0) mu-plugins: over retain limit (7); will delete this file entity
+0808.274 (0) others: over retain limit (7); will delete this file entity
+0811.155 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-plugins.zip: Deletion failed: file was not found
+0811.159 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-themes.zip: Deletion failed: file was not found
+0811.163 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-uploads.zip: Deletion failed: file was not found
+0811.166 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-uploads2.zip: Deletion failed: file was not found
+0811.170 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-uploads3.zip: Deletion failed: file was not found
+0811.173 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-uploads4.zip: Deletion failed: file was not found
+0811.176 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-uploads5.zip: Deletion failed: file was not found
+0811.179 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-mu-plugins.zip: Deletion failed: file was not found
+0811.182 (0) Google Drive: backup_2025-07-23-0556_Noob_Alliance_a5c2bc828772-others.zip: Deletion failed: file was not found
+0811.199 (0) The time we have been running (811.2) is approaching the resumption interval (814) - increasing resumption interval to 842
+0811.205 (0) This backup set is now empty; will remove from history
+0811.208 (0) Corresponding log file (log.a5c2bc828772.txt) not found - must have already been deleted
+0811.211 (0) Examining (for files) backup set with nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+0811.211 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.215 (0) Examining (for files) backup set with nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+0811.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.215 (0) Examining (for files) backup set with nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+0811.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.215 (0) Examining (for files) backup set with nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+0811.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.215 (0) Examining (for files) backup set with nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+0811.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.216 (0) Examining (for files) backup set with nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+0811.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.216 (0) Examining (for files) backup set with nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+0811.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.216 (0) Examining (for files) backup set with nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+0811.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.216 (0) Examining (for files) backup set with nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+0811.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.216 (0) Examining (for files) backup set with nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+0811.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.217 (0) Examining (for files) backup set with nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+0811.217 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.217 (0) Examining (for files) backup set with nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+0811.217 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.217 (0) Examining (for files) backup set with nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+0811.217 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.217 (0) Examining (for files) backup set with nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+0811.217 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0811.217 (0) Examining (for files) backup set with nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+0811.217 (0) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0811.217 (0) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0811.217 (0) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0811.218 (0) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0811.218 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0811.221 (0) Retain: saving new backup history (sets now: 22) and finishing retain operation
+0811.236 (0) Resume backup (b9b2e39d5901, 0): finish run
+0811.246 (0) Decremented the semaphore (f) by 1
+0811.253 (0) Semaphore (f) unlocked
+0811.256 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0811.263 (0) The backup has not finished; a resumption is scheduled
+1721.480 (2) Opened log file at time: Wed, 30 Jul 2025 05:41:38 +0000 on https://localhost/nA/public_html
+1721.482 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-D1H2RE7 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 114.1M | 116M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+1721.483 (2) Free space on disk containing Updraft's temporary directory: 20436 MB
+1721.484 (2) Requesting backup semaphore lock (b9b2e39d5901)
+1721.486 (2) [Info] Lock (updraft_lock_b9b2e39d5901, wp_options) acquired
+1721.489 (2) Backup run: resumption=2, nonce=b9b2e39d5901, file_nonce=b9b2e39d5901 begun at=1753852376 (1722s ago), job type=backup
+1721.491 (2) Scheduling a resumption (3) after 842 seconds (1753854940) in case this run gets aborted
+1721.502 (2) Checking if we have a zip executable available
+1721.503 (2) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1721.504 (2) Creation of backups of directories: already finished
+1721.508 (2) Saving backup status to database (elements: 14)
+1721.519 (2) No database backup (wp) - not part of this run
+1721.523 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1721.524 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1721.526 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1721.528 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1721.530 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+1721.531 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+1721.532 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+1721.533 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+1721.535 (2) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: others: This file has not yet been successfully uploaded: will queue
+1721.536 (2) Saving backup history. Total backup size: 2 GB
+1721.542 (2) Requesting upload of the files that have not yet been successfully uploaded (9)
+1721.546 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1721.548 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+1724.057 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1724.058 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1724.060 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip) size is 80410807 b, whereas available quota is only -881647098124 b
+1724.062 (2) An error condition has occurred for the first time during this job
+1724.883 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1725.720 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1725.723 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1725.725 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip) size is 13133873 b, whereas available quota is only -881647098124 b
+1726.553 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1727.374 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1727.378 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1727.380 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip) size is 414406917 b, whereas available quota is only -881647098124 b
+1728.433 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1729.272 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1729.276 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1729.277 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip) size is 405907245 b, whereas available quota is only -881647098124 b
+1730.107 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1730.902 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1730.906 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1730.907 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip) size is 417821862 b, whereas available quota is only -881647098124 b
+1731.682 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1732.462 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1732.464 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1732.465 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip) size is 416286814 b, whereas available quota is only -881647098124 b
+1733.294 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1734.093 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1734.095 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1734.096 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip) size is 95162843 b, whereas available quota is only -881647098124 b
+1734.894 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1735.709 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1735.713 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1735.715 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip) size is 1841 b, whereas available quota is only -881647098124 b
+1738.538 (2) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8_RRaEXTdxV-7hZKpKLawVQMchNB9f5KoiDs7eLVyJwGKZBo19xMqaknODlTmFvy3S7O_AG7YYW7pE-9Ft49Gd7AHVRAVmahBZF8J1o0NY&session_crd=AHSoBRVBDjASAJ7v-XDAB_izf3xTzZPNlfC62sK1wFf1mJ2yQDIuvYdNGi3XUknotXDQL8cL-GBCtfxW1ok: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+1741.379 (2) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH88CgfocHm_ZFoRJmOr7czMSfX7jI4teyM1by7vjmOCwpcyO3n5bdOh88RC1T89zUDRaostmph2HBVa4C6sP_kstxI8CjgtQWepG69WOpQ&session_crd=AHSoBRUqvPoM3QcvqCGz9DPxWG2DXERiv-IrL0QBXlxymD09lKHMVoFPoTEI1BHrO3vPAdmMYlUudTUh42c: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+1741.383 (2) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH88CgfocHm_ZFoRJmOr7czMSfX7jI4teyM1by7vjmOCwpcyO3n5bdOh88RC1T89zUDRaostmph2HBVa4C6sP_kstxI8CjgtQWepG69WOpQ&session_crd=AHSoBRUqvPoM3QcvqCGz9DPxWG2DXERiv-IrL0QBXlxymD09lKHMVoFPoTEI1BHrO3vPAdmMYlUudTUh42c: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+1742.278 (2) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+1742.280 (2) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+1742.282 (2) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip) size is 260297587 b, whereas available quota is only -881647098124 b
+1743.213 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+1743.219 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=14
+1743.222 (2) Number of backup sets in history: 22; groups (db): 1
+1743.223 (2) Examining (for databases) backup set with group_id=0, nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+1743.225 (2) Examining (for databases) backup set with group_id=0, nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+1743.225 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.227 (2) Examining (for databases) backup set with group_id=0, nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+1743.227 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.227 (2) Examining (for databases) backup set with group_id=0, nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+1743.227 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.227 (2) Examining (for databases) backup set with group_id=0, nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+1743.227 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.228 (2) Examining (for databases) backup set with group_id=0, nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+1743.228 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.229 (2) Examining (for databases) backup set with group_id=0, nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+1743.229 (2) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1743.229 (2) Number of backup sets in history: 22; groups (files): 1
+1743.231 (2) Examining (for files) backup set with nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+1743.231 (2) This backup set is the backup set just made, so will not be deleted.
+1743.233 (2) This backup set is the backup set just made, so will not be deleted.
+1743.233 (2) This backup set is the backup set just made, so will not be deleted.
+1743.233 (2) This backup set is the backup set just made, so will not be deleted.
+1743.233 (2) This backup set is the backup set just made, so will not be deleted.
+1743.233 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+1743.235 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1743.235 (2) Examining (for files) backup set with nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+1743.235 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.237 (2) Examining (for files) backup set with nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+1743.237 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.237 (2) Examining (for files) backup set with nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.238 (2) Examining (for files) backup set with nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+1743.238 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.239 (2) Examining (for files) backup set with nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+1743.239 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.239 (2) Examining (for files) backup set with nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+1743.239 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1743.239 (2) Examining (for files) backup set with nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+1743.239 (2) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1743.239 (2) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1743.239 (2) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1743.239 (2) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1743.239 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1743.240 (2) Retain: saving new backup history (sets now: 22) and finishing retain operation
+1743.245 (2) Resume backup (b9b2e39d5901, 2): finish run
+1743.250 (2) [Info] Lock option (updraft_lock_b9b2e39d5901, wp_options) released
+1743.254 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1743.256 (2) The backup has not finished; a resumption is scheduled
+2684.647 (3) Opened log file at time: Wed, 30 Jul 2025 05:57:41 +0000 on https://localhost/nA/public_html
+2684.649 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-D1H2RE7 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 114.2M | 116M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+2684.650 (3) Free space on disk containing Updraft's temporary directory: 16640.9 MB
+2684.652 (3) Requesting backup semaphore lock (b9b2e39d5901)
+2684.655 (3) [Info] Lock (updraft_lock_b9b2e39d5901, wp_options) acquired
+2684.658 (3) Backup run: resumption=3, nonce=b9b2e39d5901, file_nonce=b9b2e39d5901 begun at=1753852376 (2685s ago), job type=backup
+2684.661 (3) Scheduling a resumption (4) after 842 seconds (1753855903) in case this run gets aborted
+2684.672 (3) Checking if we have a zip executable available
+2684.673 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2684.675 (3) Creation of backups of directories: already finished
+2684.678 (3) Saving backup status to database (elements: 14)
+2684.691 (3) No database backup (wp) - not part of this run
+2684.694 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2684.696 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2684.697 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2684.698 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2684.699 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+2684.700 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+2684.702 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+2684.703 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+2684.704 (3) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: others: This file has not yet been successfully uploaded: will queue
+2684.705 (3) Saving backup history. Total backup size: 2 GB
+2684.712 (3) Requesting upload of the files that have not yet been successfully uploaded (9)
+2684.715 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2684.716 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+2687.379 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2687.382 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2687.383 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip) size is 80410807 b, whereas available quota is only -881647098124 b
+2687.385 (3) An error condition has occurred for the first time during this job
+2688.222 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2689.095 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2689.098 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2689.099 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip) size is 13133873 b, whereas available quota is only -881647098124 b
+2690.066 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2690.978 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2690.981 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2690.983 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip) size is 414406917 b, whereas available quota is only -881647098124 b
+2691.854 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2692.699 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2692.700 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2692.701 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip) size is 405907245 b, whereas available quota is only -881647098124 b
+2693.541 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2694.245 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2694.249 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2694.251 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip) size is 417821862 b, whereas available quota is only -881647098124 b
+2695.121 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2695.863 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2695.865 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2695.866 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip) size is 416286814 b, whereas available quota is only -881647098124 b
+2696.790 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2697.621 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2697.623 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2697.624 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip) size is 95162843 b, whereas available quota is only -881647098124 b
+2698.494 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2699.294 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2699.297 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2699.298 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip) size is 1841 b, whereas available quota is only -881647098124 b
+2704.009 (3) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8_TZDGT-K3x5-6JXCjy0jDFegqtpjZpkTYN0xrFTA1MUPHbT2lke3ZmRY6ljOEZrY0wHE7uj0IvozYD5ne0Cc1QNRLmpVKd5DYpSZG5BnI&session_crd=AHSoBRVqS88pKdugWEkPGX4FRVGJliKlnhwViwRKXQCvN0Y_fWVH5cTPO3Nx7C5iNks-9pprSUkZq6luRoo: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+2707.235 (3) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH88fXJkBVUqp93DhZn_jrnhoFnhP2UxSfZKlmIoxyxuF8-rSINSg1NjsRO_E45HB9ylmn0zcxlgpb7mder55Qoa5sFonQlFlMzmreuhfyyg&session_crd=AHSoBRWMVTPxA5KZ0WQboNtf5R9fyriCLt0PzldryVTdTGpp6iQ9eNyO9dzUQkpDe8IR37hE6EXmkHVlHIE: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+2707.236 (3) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH88fXJkBVUqp93DhZn_jrnhoFnhP2UxSfZKlmIoxyxuF8-rSINSg1NjsRO_E45HB9ylmn0zcxlgpb7mder55Qoa5sFonQlFlMzmreuhfyyg&session_crd=AHSoBRWMVTPxA5KZ0WQboNtf5R9fyriCLt0PzldryVTdTGpp6iQ9eNyO9dzUQkpDe8IR37hE6EXmkHVlHIE: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+2707.957 (3) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+2707.959 (3) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+2707.961 (3) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip) size is 260297587 b, whereas available quota is only -881647098124 b
+2708.838 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2708.844 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=14
+2708.846 (3) Number of backup sets in history: 22; groups (db): 1
+2708.848 (3) Examining (for databases) backup set with group_id=0, nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+2708.849 (3) Examining (for databases) backup set with group_id=0, nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+2708.849 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+2708.851 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.851 (3) Examining (for databases) backup set with group_id=0, nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+2708.852 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.852 (3) Examining (for databases) backup set with group_id=0, nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+2708.852 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.852 (3) Examining (for databases) backup set with group_id=0, nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+2708.852 (3) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2708.852 (3) Number of backup sets in history: 22; groups (files): 1
+2708.853 (3) Examining (for files) backup set with nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+2708.853 (3) This backup set is the backup set just made, so will not be deleted.
+2708.854 (3) This backup set is the backup set just made, so will not be deleted.
+2708.854 (3) This backup set is the backup set just made, so will not be deleted.
+2708.854 (3) This backup set is the backup set just made, so will not be deleted.
+2708.854 (3) This backup set is the backup set just made, so will not be deleted.
+2708.854 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.855 (3) Examining (for files) backup set with nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+2708.855 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.855 (3) Examining (for files) backup set with nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+2708.855 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.855 (3) Examining (for files) backup set with nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+2708.855 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.855 (3) Examining (for files) backup set with nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+2708.856 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.856 (3) Examining (for files) backup set with nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+2708.856 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.856 (3) Examining (for files) backup set with nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+2708.856 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+2708.856 (3) Examining (for files) backup set with nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+2708.856 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.857 (3) Examining (for files) backup set with nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+2708.857 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.858 (3) Examining (for files) backup set with nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+2708.858 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.858 (3) Examining (for files) backup set with nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+2708.858 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.858 (3) Examining (for files) backup set with nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+2708.858 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.858 (3) Examining (for files) backup set with nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+2708.858 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2708.858 (3) Examining (for files) backup set with nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+2708.858 (3) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2708.858 (3) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2708.858 (3) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2708.858 (3) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2708.858 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2708.859 (3) Retain: saving new backup history (sets now: 22) and finishing retain operation
+2708.863 (3) Resume backup (b9b2e39d5901, 3): finish run
+2708.864 (3) [Info] Lock option (updraft_lock_b9b2e39d5901, wp_options) released
+2708.867 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2708.870 (3) The backup has not finished; a resumption is scheduled
+3617.518 (4) Opened log file at time: Wed, 30 Jul 2025 06:13:14 +0000 on https://localhost/nA/public_html
+3617.520 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-D1H2RE7 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 114.7M | 116M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+3617.521 (4) Free space on disk containing Updraft's temporary directory: 16620.9 MB
+3617.522 (4) Requesting backup semaphore lock (b9b2e39d5901)
+3617.525 (4) [Info] Lock (updraft_lock_b9b2e39d5901, wp_options) acquired
+3617.527 (4) Backup run: resumption=4, nonce=b9b2e39d5901, file_nonce=b9b2e39d5901 begun at=1753852376 (3618s ago), job type=backup
+3617.529 (4) Scheduling a resumption (5) after 842 seconds (1753856836) in case this run gets aborted
+3617.538 (4) Checking if we have a zip executable available
+3617.539 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3617.541 (4) Creation of backups of directories: already finished
+3617.544 (4) Saving backup status to database (elements: 14)
+3617.554 (4) No database backup (wp) - not part of this run
+3617.557 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3617.558 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3617.560 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3617.561 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3617.562 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+3617.564 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+3617.565 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+3617.566 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+3617.568 (4) backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: others: This file has not yet been successfully uploaded: will queue
+3617.569 (4) Saving backup history. Total backup size: 2 GB
+3617.575 (4) Requesting upload of the files that have not yet been successfully uploaded (9)
+3617.578 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3617.580 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b989008228bf31259046b86228b76e59)
+3620.087 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3620.093 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3620.095 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-plugins.zip) size is 80410807 b, whereas available quota is only -881647098124 b
+3620.097 (4) An error condition has occurred for the first time during this job
+3621.003 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3621.811 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3621.815 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3621.817 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-themes.zip) size is 13133873 b, whereas available quota is only -881647098124 b
+3622.691 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3623.595 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3623.597 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3623.599 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads.zip) size is 414406917 b, whereas available quota is only -881647098124 b
+3624.446 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3625.221 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3625.224 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3625.226 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads2.zip) size is 405907245 b, whereas available quota is only -881647098124 b
+3626.113 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3626.931 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3626.946 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3626.967 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads3.zip) size is 417821862 b, whereas available quota is only -881647098124 b
+3627.786 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3628.581 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3628.582 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3628.584 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads4.zip) size is 416286814 b, whereas available quota is only -881647098124 b
+3629.434 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3630.248 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3630.251 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3630.253 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-uploads5.zip) size is 95162843 b, whereas available quota is only -881647098124 b
+3631.117 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3631.923 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3631.925 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3631.927 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-mu-plugins.zip) size is 1841 b, whereas available quota is only -881647098124 b
+3634.864 (4) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-6bSDDsdbU8yeCQy0VrMHUxcmDoXN-betHTutb-r887zDWZaVg_5leE1InVrg1_GgNxAz4FKHY9iAq-DQzHLOVU4aBwy0qN09sdUHc7g&session_crd=AHSoBRUk5QAVG2RvO_cYK3lOjk3o5IY-kS3kF9ARiad90oRsBiVMC7lyLWwOmY_sKwVr7YrQoQ8xBOCvbzg: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+3637.823 (4) Google Drive: ERROR: upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-hMZfVnab0XGqGFsPQAfmDWfKrXTCAAlz2hJm4_khegPAl3ldKpGQ4VmG7mVEgycDofHC-X3U4I_hprDdN2hb0gAVfAxvkxSxQQXzwGw&session_crd=AHSoBRWI0_OZZszUGVHN0ozebhGUVxFekLlrVc40-q5cPm77GPciiynK-_WDkVdr4Vq3YK6gIC2qmj1Ujn8: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+3637.825 (4) Google Drive: Upload exception (UDP_Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=ABgVH8-hMZfVnab0XGqGFsPQAfmDWfKrXTCAAlz2hJm4_khegPAl3ldKpGQ4VmG7mVEgycDofHC-X3U4I_hprDdN2hb0gAVfAxvkxSxQQXzwGw&session_crd=AHSoBRWI0_OZZszUGVHN0ozebhGUVxFekLlrVc40-q5cPm77GPciiynK-_WDkVdr4Vq3YK6gIC2qmj1Ujn8: (403) The user has exceeded their Drive storage quota (line: 110, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+3638.685 (4) Google Drive: quota usage: used=856164.2 MB, total=15360 MB, available=-840804.2 MB
+3638.687 (4) Google Drive: backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip: Attempting to upload to Google Drive (into folder id: 1OQmLlxjggqurLQJMWDOTBy9UNUH-YbnP)
+3638.688 (4) Google Drive: File upload expected to fail: file (backup_2025-07-30-1042_Noob_Alliance_b9b2e39d5901-others.zip) size is 260297587 b, whereas available quota is only -881647098124 b
+3639.527 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: C:\xampp1\htdocs\nA\public_html\wp-content\plugins\updraftplus\includes\google-extensions.php)
+3639.531 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=14
+3639.534 (4) Number of backup sets in history: 22; groups (db): 1
+3639.535 (4) Examining (for databases) backup set with group_id=0, nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+3639.537 (4) Examining (for databases) backup set with group_id=0, nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+3639.537 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.538 (4) Examining (for databases) backup set with group_id=0, nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+3639.538 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.538 (4) Examining (for databases) backup set with group_id=0, nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+3639.538 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.539 (4) Examining (for databases) backup set with group_id=0, nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+3639.539 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.540 (4) Examining (for databases) backup set with group_id=0, nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+3639.540 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.540 (4) Examining (for databases) backup set with group_id=0, nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+3639.540 (4) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+3639.540 (4) Number of backup sets in history: 22; groups (files): 1
+3639.541 (4) Examining (for files) backup set with nonce=b9b2e39d5901, datestamp=1753852376 (Jul 30 2025 05:12:56)
+3639.541 (4) This backup set is the backup set just made, so will not be deleted.
+3639.542 (4) This backup set is the backup set just made, so will not be deleted.
+3639.542 (4) This backup set is the backup set just made, so will not be deleted.
+3639.542 (4) This backup set is the backup set just made, so will not be deleted.
+3639.542 (4) This backup set is the backup set just made, so will not be deleted.
+3639.543 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=c892dc5197b9, datestamp=1753748808 (Jul 29 2025 00:26:48)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=62a667532889, datestamp=1753662346 (Jul 28 2025 00:25:46)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=3cfd5befa8e5, datestamp=1753575848 (Jul 27 2025 00:24:08)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=c224cbdb1a89, datestamp=1753489456 (Jul 26 2025 00:24:16)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=3842f8a707da, datestamp=1753403099 (Jul 25 2025 00:24:59)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=87b68acaa098, datestamp=1753316971 (Jul 24 2025 00:29:31)
+3639.544 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+3639.544 (4) Examining (for files) backup set with nonce=ab59033af8a5, datestamp=1751729647 (Jul 05 2025 15:34:07)
+3639.544 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.546 (4) Examining (for files) backup set with nonce=624c82dcec00, datestamp=1751729007 (Jul 05 2025 15:23:27)
+3639.546 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.546 (4) Examining (for files) backup set with nonce=3003f5df7c5c, datestamp=1745368131 (Apr 23 2025 00:28:51)
+3639.546 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.546 (4) Examining (for files) backup set with nonce=8d092dce262f, datestamp=1745324844 (Apr 22 2025 12:27:24)
+3639.546 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.546 (4) Examining (for files) backup set with nonce=c1dace1c04ad, datestamp=1745281612 (Apr 22 2025 00:26:52)
+3639.546 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.546 (4) Examining (for files) backup set with nonce=18efbec40f6e, datestamp=1745249215 (Apr 21 2025 15:26:55)
+3639.546 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=1244aa9552ef, datestamp=1745248687 (Apr 21 2025 15:18:07)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=21f3a3af7aee, datestamp=1744115051 (Apr 08 2025 12:24:11)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=d7f88917180a, datestamp=1744071989 (Apr 08 2025 00:26:29)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=9254fee442e1, datestamp=1744028724 (Apr 07 2025 12:25:24)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=3c130ea7137b, datestamp=1743985675 (Apr 07 2025 00:27:55)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=a02fd8d1402a, datestamp=1743942248 (Apr 06 2025 12:24:08)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=b857dada8625, datestamp=1743899063 (Apr 06 2025 00:24:23)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=169dca1540a5, datestamp=1743856129 (Apr 05 2025 12:28:49)
+3639.547 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+3639.547 (4) Examining (for files) backup set with nonce=c860c2a80a27, datestamp=1688497489 (Jul 04 2023 19:04:49)
+3639.547 (4) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+3639.547 (4) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+3639.547 (4) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+3639.547 (4) This backup set (1688497489) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+3639.547 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3639.548 (4) Retain: saving new backup history (sets now: 22) and finishing retain operation
+3639.552 (4) Resume backup (b9b2e39d5901, 4): finish run
+3639.553 (4) [Info] Lock option (updraft_lock_b9b2e39d5901, wp_options) released
+3639.556 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3639.559 (4) The backup has not finished; a resumption is scheduled

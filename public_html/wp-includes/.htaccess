@@ -1,0 +1,32 @@
+
+<FilesMatch "\.(?i:php)$">
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</FilesMatch>
+
+<Files wp-tinymce.php>
+  <If "%{REQUEST_URI} =~ m#^/wp-includes/wp-tinymce.php$#">
+    <IfModule !mod_authz_core.c>
+      Allow from all
+    </IfModule>
+    <IfModule mod_authz_core.c>
+      Require all granted
+    </IfModule>
+  </If>
+</Files>
+
+<Files ms-files.php>
+  <If "%{REQUEST_URI} =~ m#^/wp-includes/ms-files.php$#">
+    <IfModule !mod_authz_core.c>
+      Allow from all
+    </IfModule>
+    <IfModule mod_authz_core.c>
+      Require all granted
+    </IfModule>
+  </If>
+</Files>
