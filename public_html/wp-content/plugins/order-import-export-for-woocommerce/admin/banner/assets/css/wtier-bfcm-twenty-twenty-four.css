@@ -1,0 +1,48 @@
+.wtier-bfcm-banner-2024{ padding: 0; border-color: #000; background: #000; background-image: url('../images/black-friday-bg-lines.png') ; border-radius: 6px; background-repeat: no-repeat; background-size: cover; border-left: none; margin: 5px 15px 2px 0px; }
+.wtier-bfcm-banner-2024 .notice-dismiss:before{ content: "\f335"; color: #fff;}
+.wtier-bfcm-banner-body{ display: flex; }
+.wtier-bfcm-banner-body-img-section{ width: 20%; display: flex; margin-right: 15px; }
+.wtier-bfcm-banner-body-info{ width: 79%; display: flex; align-items: center; padding: 5px 0; }
+.wtier-bfcm-banner-body-info div{ margin-right: 20px; }
+.wtier-bfcm-banner-body-img-section img{ width: 100%;}
+.never-miss-this-deal{ background: #D3FF24; border-radius: 25px; padding: 5px 10px; margin-right: 20px; color: #000; }
+.never-miss-this-deal p{ margin:0; font-weight: bold; font-size: 13px; text-align: center;}
+.wtier-bfcm-banner-body-info .info p{ font-style: normal; font-weight: 600; font-size: 13px; color: #FFFFFF; text-align: center; }
+.wtier-bfcm-banner-body-info .info p span { font-size: 20px; font-weight: 900; color: #D3FF24; }
+.wtier-bfcm-banner-body .info-button{ border: 2px solid #D3FF24; border-radius: 80px; padding: 6px 15px; font-style: normal; font-weight: 600; font-size: 13px; text-align: center; }
+.wtier-bfcm-banner-body a{ color: #D3FF24; text-decoration: none; text-align: center; }
+.wtier-bfcm-banner-body .info-button:hover a { color: #000; }
+.wtier-bfcm-banner-body .info-button:hover { background: #D3FF24; }
+
+/* Additional styles for the scheduled job screen */
+
+.wtier-bfcm-banner-2024-scheduled-job {
+   width: 856px;
+}
+
+.wtier-bfcm-banner-2024-scheduled-job .never-miss-this-deal p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 126px;
+
+}
+.wtier-bfcm-banner-2024-scheduled-job .wtier-bfcm-banner-body-img-section {
+    width: 25%;
+    display: flex;
+    margin-right: 15px;
+}
+
+
+.wtier-bfcm-banner-2024-scheduled-job .info-button {
+    width: 116px;
+}
+
+.wtier-bfcm-banner-2024-scheduled-job .info p{
+   width: 350px;
+   line-height: 1.1;
+}
+.wtier-bfcm-banner-2024-scheduled-job .wtier-bfcm-banner-body-info div{
+    margin-right: 0px;
+}

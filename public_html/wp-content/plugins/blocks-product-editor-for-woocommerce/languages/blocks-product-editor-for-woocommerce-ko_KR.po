@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blocks-product-editor-for-woocommerce\n"
+"POT-Creation-Date: 2022-07-04 16:00+0700\n"
+"PO-Revision-Date: 2022-07-04 16:34+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: blocks-product-editor-for-woocommerce.admin.php:14
+msgid "Standard"
+msgstr "기준"
+
+#: blocks-product-editor-for-woocommerce.admin.php:62
+msgid "Settings saved."
+msgstr "설정이 저장되었습니다."
+
+#: blocks-product-editor-for-woocommerce.admin.php:80
+#: blocks-product-editor-for-woocommerce.php:246
+msgid "Blocks Product Editor Settings"
+msgstr "총 비용 입력 설정"
+
+#: blocks-product-editor-for-woocommerce.admin.php:86
+msgid "Awesome Premium Features"
+msgstr "멋진 프리미엄 기능"
+
+#: blocks-product-editor-for-woocommerce.admin.php:87
+msgid "Per product gutenberg product editor and more."
+msgstr "제품당 총 비용 입력 등."
+
+#: blocks-product-editor-for-woocommerce.admin.php:89
+msgid "Upgrade Now!"
+msgstr "지금 업그레이드하세요!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:113
+msgid "Enable Gutenberg Editor"
+msgstr "구텐베르크 편집기 사용"
+
+#: blocks-product-editor-for-woocommerce.admin.php:117
+msgid "Enable the Gutenberg editor for WooCommerce products."
+msgstr "WooCommerce 제품에 대해 Gutenberg 편집기를 활성화합니다."
+
+#: blocks-product-editor-for-woocommerce.admin.php:123
+msgid "Show Product Categories in REST"
+msgstr "REST에서 제품 카테고리 표시"
+
+#: blocks-product-editor-for-woocommerce.admin.php:131
+msgid "Show Product Categories in REST for WooCommerce product categories."
+msgstr "WooCommerce 제품 카테고리에 대해 REST에서 제품 카테고리를 표시합니다."
+
+#: blocks-product-editor-for-woocommerce.admin.php:136
+#: blocks-product-editor-for-woocommerce.admin.php:162
+#, php-format
+msgid "%1$sUpgrade Now!%2$s to enable this feature."
+msgstr "%1$s지금 업그레이드하십시오! 이 기능을 활성화하려면%2$s."
+
+#: blocks-product-editor-for-woocommerce.admin.php:149
+msgid "Show Product Tags in REST"
+msgstr "REST에서 제품 태그 표시"
+
+#: blocks-product-editor-for-woocommerce.admin.php:157
+msgid "Show Product Tags in REST for WooCommerce product tags."
+msgstr "WooCommerce 제품 태그용 REST에서 제품 태그를 표시합니다."
+
+#: blocks-product-editor-for-woocommerce.admin.php:184
+msgid "Want more features?"
+msgstr "더 많은 기능을 원하십니까?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:186
+#, php-format
+msgid "Install the %1$sPRO plugin version%2$s!"
+msgstr "%1$sPRO 플러그인 버전%2$s를 설치하십시오!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:196
+msgid "Save Changes"
+msgstr "변경 사항을 저장하다"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Are you sure you want to delete all Blocks Product Editor options?"
+msgstr "모든 총 비용 입력 옵션을 삭제하시겠습니까?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Reset"
+msgstr "초기화"
+
+#: blocks-product-editor-for-woocommerce.admin.php:203
+#, php-format
+msgid ""
+"If you like <strong>Blocks Product Editor for WooCommerce</strong> please "
+"leave us a %1$s rating. A huge thanks in advance!"
+msgstr ""
+"<strong>WooCommerce에 대한 총 비용 입력</strong>이 마음에 드시면 %1$s 등급을 "
+"남겨주세요. 미리 감사드립니다!"
+
+#: blocks-product-editor-for-woocommerce.php:176
+msgid "Catalog visibility"
+msgstr "카탈로그 가시성"
+
+#: blocks-product-editor-for-woocommerce.php:247
+msgid "Blocks Product Editor"
+msgstr "총 비용 입력"
+
+#: blocks-product-editor-for-woocommerce.php:266
+msgid "Settings"
+msgstr "설정"

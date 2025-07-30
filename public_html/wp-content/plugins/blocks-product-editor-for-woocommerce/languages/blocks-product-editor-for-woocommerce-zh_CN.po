@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blocks-product-editor-for-woocommerce\n"
+"POT-Creation-Date: 2022-06-27 14:22+0700\n"
+"PO-Revision-Date: 2022-07-04 16:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: blocks-product-editor-for-woocommerce.admin.php:14
+msgid "Standard"
+msgstr "标准"
+
+#: blocks-product-editor-for-woocommerce.admin.php:62
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:80
+#: blocks-product-editor-for-woocommerce.php:246
+msgid "Blocks Product Editor Settings"
+msgstr "总成本输入设置"
+
+#: blocks-product-editor-for-woocommerce.admin.php:86
+msgid "Awesome Premium Features"
+msgstr "很棒的高级功能"
+
+#: blocks-product-editor-for-woocommerce.admin.php:87
+msgid "Per product gutenberg product editor and more."
+msgstr "每个产品的总成本投入等等。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:89
+msgid "Upgrade Now!"
+msgstr "现在升级！"
+
+#: blocks-product-editor-for-woocommerce.admin.php:113
+msgid "Enable Gutenberg Editor"
+msgstr "启用古腾堡编辑器"
+
+#: blocks-product-editor-for-woocommerce.admin.php:117
+msgid "Enable the Gutenberg editor for WooCommerce products."
+msgstr "为 WooCommerce 产品启用古腾堡编辑器。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:123
+msgid "Show Product Categories in REST"
+msgstr "在 REST 中显示产品类别"
+
+#: blocks-product-editor-for-woocommerce.admin.php:131
+msgid "Show Product Categories in REST for WooCommerce product categories."
+msgstr "在 REST 中为 WooCommerce 产品类别显示产品类别。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:136
+#: blocks-product-editor-for-woocommerce.admin.php:162
+#, php-format
+msgid "%1$sUpgrade Now!%2$s to enable this feature."
+msgstr "%1$s立即升级！%2$s 启用此功能。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:149
+msgid "Show Product Tags in REST"
+msgstr "在 REST 中显示产品标签"
+
+#: blocks-product-editor-for-woocommerce.admin.php:157
+msgid "Show Product Tags in REST for WooCommerce product tags."
+msgstr "在 REST 中为 WooCommerce 产品标签显示产品标签。"
+
+#: blocks-product-editor-for-woocommerce.admin.php:184
+msgid "Want more features?"
+msgstr "想要更多功能？"
+
+#: blocks-product-editor-for-woocommerce.admin.php:186
+#, php-format
+msgid "Install the %1$sPRO plugin version%2$s!"
+msgstr "安装 %1$sPRO 插件版本%2$s！"
+
+#: blocks-product-editor-for-woocommerce.admin.php:196
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Are you sure you want to delete all Blocks Product Editor options?"
+msgstr "您确定要删除所有总成本输入选项吗？"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Reset"
+msgstr "重置"
+
+#: blocks-product-editor-for-woocommerce.admin.php:203
+#, php-format
+msgid ""
+"If you like <strong>Blocks Product Editor for WooCommerce</strong> please "
+"leave us a %1$s rating. A huge thanks in advance!"
+msgstr ""
+"如果您喜欢 <strong>WooCommerce 的总成本输入</strong>，请给我们评分 %1$s。 提"
+"前非常感谢！"
+
+#: blocks-product-editor-for-woocommerce.php:176
+msgid "Catalog visibility"
+msgstr "目录可见性"
+
+#: blocks-product-editor-for-woocommerce.php:247
+msgid "Blocks Product Editor"
+msgstr "总成本投入"
+
+#: blocks-product-editor-for-woocommerce.php:266
+msgid "Settings"
+msgstr "设置"

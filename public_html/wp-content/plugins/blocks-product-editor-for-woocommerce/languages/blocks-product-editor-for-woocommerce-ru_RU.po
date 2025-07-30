@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blocks-product-editor-for-woocommerce\n"
+"POT-Creation-Date: 2022-07-04 16:00+0700\n"
+"PO-Revision-Date: 2022-07-04 16:22+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: blocks-product-editor-for-woocommerce.admin.php:14
+msgid "Standard"
+msgstr "Стандартные"
+
+#: blocks-product-editor-for-woocommerce.admin.php:62
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: blocks-product-editor-for-woocommerce.admin.php:80
+#: blocks-product-editor-for-woocommerce.php:246
+msgid "Blocks Product Editor Settings"
+msgstr "Настройки Blocks Product Editor"
+
+#: blocks-product-editor-for-woocommerce.admin.php:86
+msgid "Awesome Premium Features"
+msgstr "Потрясающие премиум возможности"
+
+#: blocks-product-editor-for-woocommerce.admin.php:87
+msgid "Per product gutenberg product editor and more."
+msgstr "Настройка отдельных продуктов и многое другое."
+
+#: blocks-product-editor-for-woocommerce.admin.php:89
+msgid "Upgrade Now!"
+msgstr "Приобретите премиум!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:113
+msgid "Enable Gutenberg Editor"
+msgstr "Включить Gutenberg редактор"
+
+#: blocks-product-editor-for-woocommerce.admin.php:117
+msgid "Enable the Gutenberg editor for WooCommerce products."
+msgstr "Включите редактор Gutenberg для продуктов WooCommerce."
+
+#: blocks-product-editor-for-woocommerce.admin.php:123
+msgid "Show Product Categories in REST"
+msgstr "Показать категории продуктов в REST"
+
+#: blocks-product-editor-for-woocommerce.admin.php:131
+msgid "Show Product Categories in REST for WooCommerce product categories."
+msgstr ""
+"Показать категории продуктов в REST для категорий продуктов WooCommerce."
+
+#: blocks-product-editor-for-woocommerce.admin.php:136
+#: blocks-product-editor-for-woocommerce.admin.php:162
+#, php-format
+msgid "%1$sUpgrade Now!%2$s to enable this feature."
+msgstr "%1$sПриобретите премиум!%2$s Для использования этой возможности."
+
+#: blocks-product-editor-for-woocommerce.admin.php:149
+msgid "Show Product Tags in REST"
+msgstr "Показать теги продуктов в REST"
+
+#: blocks-product-editor-for-woocommerce.admin.php:157
+msgid "Show Product Tags in REST for WooCommerce product tags."
+msgstr "Показать теги продуктов в REST для тегов продуктов WooCommerce."
+
+#: blocks-product-editor-for-woocommerce.admin.php:184
+msgid "Want more features?"
+msgstr "Хотите больше премиум возможностей?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:186
+#, php-format
+msgid "Install the %1$sPRO plugin version%2$s!"
+msgstr "Перейдите на %1$sPRO версию плагина%2$s!"
+
+#: blocks-product-editor-for-woocommerce.admin.php:196
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Are you sure you want to delete all Blocks Product Editor options?"
+msgstr ""
+"Вы уверены, что хотите удалить все настройки плагина Blocks Product "
+"Editor for WooCommerce?"
+
+#: blocks-product-editor-for-woocommerce.admin.php:197
+msgid "Reset"
+msgstr "Сбросить"
+
+#: blocks-product-editor-for-woocommerce.admin.php:203
+#, php-format
+msgid ""
+"If you like <strong>Blocks Product Editor for WooCommerce</strong> please "
+"leave us a %1$s rating. A huge thanks in advance!"
+msgstr ""
+"Если вам нравится <strong>Blocks Product Editor for WooCommerce</strong>, "
+"оставьте нам рейтинг %1$s. Огромное спасибо заранее!"
+
+#: blocks-product-editor-for-woocommerce.php:176
+msgid "Catalog visibility"
+msgstr "Видимость каталога"
+
+#: blocks-product-editor-for-woocommerce.php:247
+msgid "Blocks Product Editor"
+msgstr "Ввод суммы"
+
+#: blocks-product-editor-for-woocommerce.php:266
+msgid "Settings"
+msgstr "Настройки"
