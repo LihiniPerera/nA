@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Polo Product Page
- * Custom template for premium polo shirt product page
+ * Custom template for Classic Polo product page
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -297,10 +297,10 @@ if ($polo_product && is_object($polo_product) && method_exists($polo_product, 'g
                             $image_src = $main_image[0];
                             if (empty($image_src) || strpos($image_src, 'polo-default.jpg') !== false) {
                                 // Use a data URL placeholder if no real image
-                                $image_src = 'data:image/svg+xml;base64,' . base64_encode('<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" style="background:#F1C40F;"><rect width="100%" height="100%" fill="#F1C40F"/><text x="50%" y="50%" font-size="24" fill="#000" text-anchor="middle" dominant-baseline="middle">Premium Polo Shirt</text></svg>');
+                                $image_src = 'data:image/svg+xml;base64,' . base64_encode('<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" style="background:#F1C40F;"><rect width="100%" height="100%" fill="#F1C40F"/><text x="50%" y="50%" font-size="24" fill="#000" text-anchor="middle" dominant-baseline="middle">Classic Polo</text></svg>');
                             }
                             ?>
-                            <img id="polo-main-image" src="<?php echo esc_url($image_src); ?>" alt="<?php echo esc_attr($product_name ?: 'Premium Polo Shirt'); ?>" class="polo-main-img">
+                            <img id="polo-main-image" src="<?php echo esc_url($image_src); ?>" alt="<?php echo esc_attr($product_name ?: 'Classic Polo'); ?>" class="polo-main-img">
                             <div class="polo-image-glow"></div>
                         </div>
                     </div>
@@ -376,7 +376,7 @@ if ($polo_product && is_object($polo_product) && method_exists($polo_product, 'g
                 <div class="polo-details">
                     
                     <!-- Product Title -->
-                    <h1 class="polo-title"><?php echo esc_html($product_name ?: 'Premium Polo Shirt'); ?></h1>
+                    <h1 class="polo-title"><?php echo esc_html($product_name ?: 'Classic Polo'); ?></h1>
                     
                     <!-- Rating -->
                     <?php if ($review_count > 0): ?>
@@ -568,7 +568,7 @@ if ($polo_product && is_object($polo_product) && method_exists($polo_product, 'g
                     <!-- Description Tab -->
                     <div class="polo-tab-pane active" id="description">
                         <h3>Premium Quality Design</h3>
-                        <p>Our Premium Polo Shirt represents the perfect fusion of classic elegance and contemporary style. Meticulously crafted from the finest 100% cotton, this piece offers unparalleled comfort and durability. The modern slim-fit design ensures a flattering silhouette for all body types, while the breathable fabric keeps you comfortable throughout the day.</p>
+                        <p>Our Classic Polo represents the perfect fusion of classic elegance and contemporary style. Meticulously crafted from the finest 100% cotton, this piece offers unparalleled comfort and durability. The modern slim-fit design ensures a flattering silhouette for all body types, while the breathable fabric keeps you comfortable throughout the day.</p>
                         <p>Whether you're heading to a business meeting, casual dinner, or weekend outing, this versatile polo adapts to any occasion. The signature embroidered logo adds a touch of sophistication, making it a must-have addition to your wardrobe.</p>
                         <?php 
                         /*
