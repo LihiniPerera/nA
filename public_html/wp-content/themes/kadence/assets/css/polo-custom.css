@@ -1,0 +1,1076 @@
+/*
+ * Custom Polo Product Page Styles
+ * Designed to match the dark theme with golden accents
+ */
+
+/* CSS Custom Properties */
+:root {
+    --polo-primary: #F1C40F;
+    --polo-primary-hover: #E6B800;
+    --polo-bg-dark: #000000;
+    --polo-bg-card: #1a1a1a;
+    --polo-bg-light-card: #2a2a2a;
+    --polo-text-primary: #ffffff;
+    --polo-text-secondary: #cccccc;
+    --polo-text-muted: #888888;
+    --polo-border: #333333;
+    --polo-border-light: #444444;
+    --polo-shadow: 0 4px 20px rgba(241, 196, 15, 0.2);
+    --polo-shadow-hover: 0 8px 30px rgba(241, 196, 15, 0.3);
+    --polo-transition: all 0.3s ease;
+    --polo-border-radius: 12px;
+    --polo-border-radius-small: 8px;
+}
+
+/* Base Styles */
+.polo-main-container {
+    background-color: var(--polo-bg-dark);
+    color: var(--polo-text-primary);
+    min-height: 100vh;
+    font-family: inherit;
+    line-height: 1.6;
+}
+
+.polo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.polo-section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--polo-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.polo-hero {
+    padding: 4rem 0;
+    background-color: var(--polo-bg-dark);
+}
+
+.polo-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+/* Product Gallery */
+.polo-gallery {
+    position: relative;
+}
+
+.polo-gallery-main {
+    margin-bottom: 2rem;
+}
+
+.polo-image-container {
+    position: relative;
+    aspect-ratio: 1;
+    border-radius: var(--polo-border-radius);
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--polo-primary), #E6B800);
+    padding: 2rem;
+    box-shadow: var(--polo-shadow);
+}
+
+.polo-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--polo-border-radius-small);
+    transition: var(--polo-transition);
+}
+
+.polo-image-glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, rgba(241, 196, 15, 0.3) 0%, transparent 70%);
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.polo-gallery-tabs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.polo-tab-btn {
+    background-color: var(--polo-bg-card);
+    color: var(--polo-text-secondary);
+    border: 2px solid var(--polo-border);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--polo-border-radius-small);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--polo-transition);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.polo-tab-btn:hover,
+.polo-tab-btn.active {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    border-color: var(--polo-primary);
+    transform: translateY(-2px);
+}
+
+/* Thumbnail button styles */
+.polo-thumb-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    min-width: 80px;
+}
+
+.polo-thumb-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: var(--polo-border-radius-small);
+    transition: var(--polo-transition);
+}
+
+.polo-thumb-btn:hover .polo-thumb-img,
+.polo-thumb-btn.active .polo-thumb-img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(241, 196, 15, 0.4);
+}
+
+.polo-thumb-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Product Details */
+.polo-details {
+    position: relative;
+}
+
+.polo-breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: var(--polo-text-muted);
+}
+
+.polo-breadcrumb a {
+    color: var(--polo-text-secondary);
+    text-decoration: none;
+    transition: var(--polo-transition);
+}
+
+.polo-breadcrumb a:hover {
+    color: var(--polo-primary);
+}
+
+.polo-breadcrumb span {
+    margin: 0 0.5rem;
+}
+
+.polo-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--polo-text-primary);
+    line-height: 1.2;
+}
+
+.polo-rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.polo-stars {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.polo-star {
+    font-size: 1.2rem;
+    color: var(--polo-text-muted);
+    transition: var(--polo-transition);
+}
+
+.polo-star.filled {
+    color: var(--polo-primary);
+}
+
+.polo-review-count {
+    color: var(--polo-text-secondary);
+    font-weight: 500;
+}
+
+/* Pricing */
+.polo-price-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.polo-sale-price,
+.polo-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--polo-primary);
+}
+
+.polo-regular-price {
+    font-size: 1.5rem;
+    color: var(--polo-text-muted);
+    text-decoration: line-through;
+}
+
+.polo-discount-badge {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    padding: 0.5rem 1rem;
+    border-radius: var(--polo-border-radius-small);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.polo-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--polo-text-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Options */
+.polo-options {
+    margin-bottom: 2rem;
+}
+
+.polo-size-section,
+.polo-color-section {
+    margin-bottom: 1.5rem;
+}
+
+.polo-option-label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--polo-text-primary);
+}
+
+.polo-size-options {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.polo-size-btn {
+    background-color: var(--polo-bg-card);
+    color: var(--polo-text-secondary);
+    border: 2px solid var(--polo-border);
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--polo-border-radius-small);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--polo-transition);
+    min-width: 3rem;
+    text-align: center;
+}
+
+.polo-size-btn:hover,
+.polo-size-btn.active {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    border-color: var(--polo-primary);
+    transform: translateY(-2px);
+}
+
+.polo-color-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.polo-color-option {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: var(--polo-transition);
+    position: relative;
+}
+
+.polo-color-option.active {
+    border-color: var(--polo-primary);
+    transform: scale(1.1);
+}
+
+.polo-color-option:hover {
+    transform: scale(1.05);
+}
+
+/* Quantity */
+.polo-quantity-section {
+    margin-bottom: 2rem;
+}
+
+.polo-quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border: 2px solid var(--polo-border);
+    border-radius: var(--polo-border-radius-small);
+    overflow: hidden;
+    width: fit-content;
+}
+
+.polo-qty-btn {
+    background-color: var(--polo-bg-card);
+    color: var(--polo-text-primary);
+    border: none;
+    padding: 1rem 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--polo-transition);
+    border-right: 1px solid var(--polo-border);
+}
+
+.polo-qty-btn:last-child {
+    border-right: none;
+    border-left: 1px solid var(--polo-border);
+}
+
+.polo-qty-btn:hover {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+}
+
+.polo-qty-input {
+    background-color: var(--polo-bg-card);
+    color: var(--polo-text-primary);
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 4rem;
+    -moz-appearance: textfield;
+}
+
+.polo-qty-input::-webkit-outer-spin-button,
+.polo-qty-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Action Buttons */
+.polo-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.polo-add-to-cart-btn,
+.polo-buy-now-btn {
+    flex: 1;
+    padding: 1.25rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: var(--polo-border-radius-small);
+    cursor: pointer;
+    transition: var(--polo-transition);
+    border: 2px solid;
+}
+
+.polo-add-to-cart-btn {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    border-color: var(--polo-primary);
+}
+
+.polo-add-to-cart-btn:hover {
+    background-color: var(--polo-primary-hover);
+    transform: translateY(-3px);
+    box-shadow: var(--polo-shadow-hover);
+}
+
+.polo-buy-now-btn {
+    background-color: transparent;
+    color: var(--polo-primary);
+    border-color: var(--polo-primary);
+}
+
+.polo-buy-now-btn:hover {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    transform: translateY(-3px);
+}
+
+/* Floating Actions */
+.polo-floating-actions {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.polo-float-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: var(--polo-transition);
+    box-shadow: var(--polo-shadow);
+}
+
+.polo-float-btn:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: var(--polo-shadow-hover);
+}
+
+/* Assurance Bar */
+.polo-assurance {
+    padding: 2rem 0;
+    background-color: var(--polo-bg-card);
+    border-top: 1px solid var(--polo-border);
+    border-bottom: 1px solid var(--polo-border);
+}
+
+.polo-assurance-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.polo-assurance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid var(--polo-border);
+    border-radius: var(--polo-border-radius-small);
+    transition: var(--polo-transition);
+}
+
+.polo-assurance-item:hover {
+    border-color: var(--polo-primary);
+    transform: translateY(-3px);
+}
+
+.polo-assurance-icon {
+    font-size: 2rem;
+    color: var(--polo-primary);
+}
+
+.polo-assurance-item span {
+    font-weight: 600;
+    color: var(--polo-text-primary);
+}
+
+/* Product Information Section */
+.polo-info-section {
+    padding: 4rem 0;
+    background-color: var(--polo-bg-dark);
+}
+
+.polo-tabs {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.polo-tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 3rem;
+    border: 2px solid var(--polo-border);
+    border-radius: var(--polo-border-radius-small);
+    overflow: hidden;
+    background-color: var(--polo-bg-card);
+}
+
+.polo-tab-nav-btn {
+    flex: 1;
+    background-color: transparent;
+    color: var(--polo-text-secondary);
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--polo-transition);
+    border-right: 1px solid var(--polo-border);
+}
+
+.polo-tab-nav-btn:last-child {
+    border-right: none;
+}
+
+.polo-tab-nav-btn:hover,
+.polo-tab-nav-btn.active {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+}
+
+.polo-tab-content {
+    background-color: var(--polo-bg-card);
+    border-radius: var(--polo-border-radius);
+    padding: 3rem;
+    border: 1px solid var(--polo-border);
+}
+
+.polo-tab-pane {
+    display: none;
+}
+
+.polo-tab-pane.active {
+    display: block;
+}
+
+.polo-tab-pane h3 {
+    color: var(--polo-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.polo-tab-pane p {
+    color: var(--polo-text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* Specifications Grid */
+.polo-spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.polo-spec-item {
+    background-color: var(--polo-bg-light-card);
+    padding: 1.5rem;
+    border-radius: var(--polo-border-radius-small);
+    border: 1px solid var(--polo-border);
+}
+
+.polo-spec-item h4 {
+    color: var(--polo-primary);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.polo-spec-item p {
+    color: var(--polo-text-primary);
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Size Guide Table */
+.polo-size-table {
+    overflow-x: auto;
+}
+
+.polo-size-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--polo-bg-light-card);
+    border-radius: var(--polo-border-radius-small);
+    overflow: hidden;
+}
+
+.polo-size-table th {
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.polo-size-table td {
+    background-color: var(--polo-bg-card);
+    color: var(--polo-text-primary);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--polo-border);
+    font-weight: 600;
+}
+
+.polo-size-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Care Instructions */
+.polo-care-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.polo-care-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--polo-border);
+    color: var(--polo-text-secondary);
+    font-weight: 500;
+}
+
+.polo-care-list li:last-child {
+    border-bottom: none;
+}
+
+.care-icon {
+    font-size: 1.5rem;
+    color: var(--polo-primary);
+    min-width: 2rem;
+    text-align: center;
+}
+
+/* Reviews Section */
+.polo-reviews {
+    padding: 4rem 0;
+    background-color: var(--polo-bg-dark);
+}
+
+.polo-reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+}
+
+.polo-rating-summary {
+    text-align: center;
+}
+
+.polo-avg-rating {
+    margin-bottom: 2rem;
+}
+
+.polo-big-rating {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--polo-primary);
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.polo-rating-stars {
+    margin-bottom: 0.5rem;
+}
+
+.polo-rating-breakdown {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.polo-rating-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.polo-bar {
+    flex: 1;
+    height: 0.5rem;
+    background-color: var(--polo-bg-card);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.polo-bar-fill {
+    height: 100%;
+    background-color: var(--polo-primary);
+    transition: var(--polo-transition);
+}
+
+.polo-reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.polo-review-item {
+    background-color: var(--polo-bg-card);
+    padding: 2rem;
+    border-radius: var(--polo-border-radius);
+    border-left: 4px solid var(--polo-primary);
+    border: 1px solid var(--polo-border);
+}
+
+.polo-review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.polo-review-header h4 {
+    color: var(--polo-text-primary);
+    margin: 0;
+    font-weight: 700;
+}
+
+.polo-review-date {
+    color: var(--polo-text-muted);
+    font-size: 0.9rem;
+}
+
+.polo-review-rating {
+    margin-bottom: 1rem;
+}
+
+.polo-review-text {
+    color: var(--polo-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Benefits Section */
+.polo-benefits {
+    padding: 4rem 0;
+    background-color: var(--polo-bg-card);
+}
+
+.polo-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.polo-benefit-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--polo-bg-light-card);
+    border-radius: var(--polo-border-radius);
+    border: 1px solid var(--polo-border);
+    transition: var(--polo-transition);
+}
+
+.polo-benefit-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--polo-shadow);
+    border-color: var(--polo-primary);
+}
+
+.polo-benefit-icon {
+    font-size: 3rem;
+    color: var(--polo-primary);
+    margin-bottom: 1.5rem;
+}
+
+.polo-benefit-item h3 {
+    color: var(--polo-primary);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.polo-benefit-item p {
+    color: var(--polo-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* FAQ Section */
+.polo-faq {
+    padding: 4rem 0;
+    background-color: var(--polo-bg-dark);
+}
+
+.polo-faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.polo-faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid var(--polo-border);
+    border-radius: var(--polo-border-radius-small);
+    overflow: hidden;
+    background-color: var(--polo-bg-card);
+}
+
+.polo-faq-question {
+    width: 100%;
+    background-color: var(--polo-primary);
+    color: var(--polo-bg-dark);
+    border: none;
+    padding: 1.5rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--polo-transition);
+}
+
+.polo-faq-question:hover {
+    background-color: var(--polo-primary-hover);
+}
+
+.polo-faq-toggle {
+    transition: var(--polo-transition);
+}
+
+.polo-faq-item.active .polo-faq-toggle {
+    transform: rotate(180deg);
+}
+
+.polo-faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: var(--polo-bg-light-card);
+}
+
+.polo-faq-item.active .polo-faq-answer {
+    max-height: 200px;
+}
+
+.polo-faq-answer p {
+    padding: 1.5rem;
+    margin: 0;
+    color: var(--polo-text-secondary);
+    line-height: 1.6;
+}
+
+/* Error Styling */
+.polo-error {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--polo-text-secondary);
+}
+
+.polo-error h1 {
+    color: var(--polo-primary);
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .polo-hero-grid {
+        gap: 3rem;
+    }
+    
+    .polo-section-title {
+        font-size: 2rem;
+    }
+    
+    .polo-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .polo-spec-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .polo-container {
+        padding: 0 15px;
+    }
+    
+    .polo-hero {
+        padding: 2rem 0;
+    }
+    
+    .polo-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .polo-title {
+        font-size: 2.2rem;
+    }
+    
+    .polo-actions {
+        flex-direction: column;
+    }
+    
+    .polo-floating-actions {
+        display: none !important;
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .polo-assurance-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .polo-tab-nav {
+        flex-wrap: wrap;
+        border-radius: 0;
+    }
+    
+    .polo-tab-nav-btn {
+        flex: 1 1 50%;
+        border: 1px solid var(--polo-border);
+        border-radius: var(--polo-border-radius-small);
+        margin: 0.25rem;
+    }
+    
+    .polo-tab-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .polo-reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .polo-benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .polo-size-options {
+        justify-content: center;
+    }
+    
+    .polo-gallery-tabs {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .polo-tab-btn {
+        flex: 1;
+        min-width: calc(50% - 0.25rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .polo-section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .polo-title {
+        font-size: 1.8rem;
+    }
+    
+    .polo-assurance-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .polo-assurance-item {
+        padding: 1rem;
+    }
+    
+    .polo-tab-nav-btn {
+        flex: 1 1 100%;
+        margin: 0.25rem 0;
+    }
+    
+    .polo-benefit-item {
+        padding: 1.5rem;
+    }
+    
+    .polo-spec-item {
+        padding: 1rem;
+    }
+    
+    .polo-faq-question {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    
+    .polo-faq-answer p {
+        padding: 1rem;
+    }
+}
+
+/* Loading and Animation States */
+.polo-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.polo-fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Focus States for Accessibility */
+.polo-tab-btn:focus,
+.polo-size-btn:focus,
+.polo-color-option:focus,
+.polo-qty-btn:focus,
+.polo-add-to-cart-btn:focus,
+.polo-buy-now-btn:focus,
+.polo-float-btn:focus,
+.polo-tab-nav-btn:focus,
+.polo-faq-question:focus {
+    outline: 2px solid var(--polo-primary);
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    :root {
+        --polo-bg-dark: #000000;
+        --polo-bg-card: #111111;
+        --polo-bg-light-card: #222222;
+        --polo-border: #555555;
+        --polo-border-light: #666666;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
